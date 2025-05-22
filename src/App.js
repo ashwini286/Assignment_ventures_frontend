@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CheckoutButton from './components/CheckoutButton';
-import Success from './components/Success';
-import Cancel from './components/Cancel';
+import Success from './components/SuccessPage';
+import Cancel from './components/CancelPage';
 
 function App() {
   return (
