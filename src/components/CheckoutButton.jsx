@@ -12,7 +12,7 @@ const CheckoutButton = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:5000/create-checkout-session', { method: 'POST' }); // Change URL to your backend
+      const response = await fetch('https://assignment-ventures-backend-1.onrender.com/create-checkout-session', { method: 'POST' }); // Change URL to your backend
       const data = await response.json();
 
       if (!response.ok) throw new Error(data.error || 'Failed to create checkout session');
