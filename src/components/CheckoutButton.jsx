@@ -40,7 +40,7 @@ const CheckoutButton = () => {
         {error && <p className="mt-3 text-red-600 text-center">{error}</p>}
       </div>
      <div className="absolute bottom-0 left-0 w-full z-0">
-        <svg viewBox="0 0 1440 320" className="w-full h-80 animate-pulse">
+        <svg viewBox="0 0 1440 320" className="w-full h-[300px] animate-pulse">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stopColor="#00C9A7">
